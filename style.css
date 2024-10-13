@@ -1,0 +1,41 @@
+body{
+  margin: 0;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+  background: linear-gradient(to left bottom, lightblue, lightpink, lightblue);
+}
+.container{
+  padding: 40px;
+  background: rgba(225, 225, 225, .3);
+  box-shadow: 4px 5px 8px rgba(0, 0, 0, .3);
+  color: darkgreen;
+  text-align: center;
+  
+}
+h1{
+  font-size: 35px;
+  font-family: Helvetica, sans-serif;
+  margin-bottom: 20px;
+}
+.joke{
+  font-size: 15px;
+  color: green;
+  font-weight: bolder;
+  margin: 50 0px;
+}
+.btn{
+  font-size: 20px;
+  padding: 5px 10px;
+  text-transform: uppercase;
+  background: lightpink;
+  color: white;
+  font-weight: bolder;
+}
+.btn:active{
+  background: rgba(225, 225, 225, .5);
+  opacity: .4s;
+  transition: all .5ms ease-in-out;
+  color: darkgreen;
+}
